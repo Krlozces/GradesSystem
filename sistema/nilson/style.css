@@ -1,0 +1,100 @@
+.logo{
+    height: auto;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.navbar{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.425);
+    width: 9%;
+    padding: 2%;
+    position: fixed;
+    margin: 0;
+    border-radius: 5px;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+
+}
+.li{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: color 0.3s; 
+    text-decoration: none;
+
+}
+.botones{
+    background: #c5d1e6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 2%;
+    text-align: center;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+}
+.icono{
+    height: auto;
+    width: 17%;
+}
+  
+.botones:hover{
+    background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 20px;
+}
+
+/* Estilos para pantallas más pequeñas (menos de 768px de ancho) */
+@media (max-width: 768px) {
+    .navbar {
+        width: 50%; 
+        padding: 1%; 
+    }
+    .logo{
+        height: auto;
+        width: 50%;
+
+    }
+    .botones {
+        margin-bottom: 5px; 
+        padding: 1%; 
+        width: 100%;
+    }
+    
+    .icono {
+        width: 15%; 
+    }
+}
+
+/* Estilos para pantallas más grandes (más de 768px de ancho) */
+@media (min-width: 769px) {
+    .navbar {
+        width: 9%; 
+    }
+
+    .botones {
+        margin-bottom: 10px; 
+        padding: 2%; 
+    }
+
+    .icono {
+        width: 17%; 
+    }
+}

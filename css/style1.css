@@ -1,0 +1,107 @@
+.contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor::before {
+    content: '';
+    width: 50%; /* Establece el ancho del espacio a la izquierda del formulario */
+}
+
+.body::after {
+    content: "";
+    height: 100vh;
+    background-image: url("http://localhost/asistencia1/css/img/fondo.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(255, 165, 0,0.6);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    padding: 3%;  
+}
+
+.login-container {
+    background-color: rgb(22, 69, 96,0.9);
+    padding: 5% 7%; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+
+}
+
+h2{
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.login-container p{
+    font-size: 12px;
+    padding: 5px 0px 5px 0px;
+}
+
+form {
+    color: white;
+}
+
+.img3 {
+    width: 60%;
+    height: 110%;
+    z-index: 5;
+    left: 3%;
+    border-radius: 5%;
+    margin-left: -3%;
+}
+
+.alert {
+    margin-top: -10%;
+    padding: 5%;
+    border-radius: 5%;
+    font-size: 90%;
+    color: whitesmoke;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+button {
+    background-color: rgb(22, 69, 96);
+    color: whitesmoke;
+    padding: 5%;
+    border: none;
+    margin-left: 30%;
+    transition: 0.8s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+    border-radius: 0% 35% 0% 35%;
+}
+
+input {
+    font-size: 95%;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}

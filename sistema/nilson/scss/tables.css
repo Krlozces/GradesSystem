@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Utiliza la clase table-hover para agregar estilos de hover */
+.table-hover tbody tr:hover {
+  background-color: rgba(243, 140, 210, 0.4) !important;
+}
+
+.table {
+  margin-top: 10px;
+}
+.table thead th {
+  padding: 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: rgba(182, 243, 13, 0.4);
+}
+.table td {
+  padding: 15px;
+}
+.table tbody tr {
+  cursor: pointer;
+}/*# sourceMappingURL=tables.css.map */

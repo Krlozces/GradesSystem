@@ -1,0 +1,93 @@
+body{
+    background: #01EC94;
+    background: linear-gradient(90deg, #01EC94, #FFFFFF);
+}
+
+h2{
+    text-align: center;
+}
+
+.container-general{
+    border-radius: 8px;
+    border: 1px solid #01EC94;
+    margin: 60px auto;
+    width: 70%;
+    height: 519px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: #FFFFFF;
+}
+
+input{
+    padding: 10px;
+    padding-left: 30px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px 0;
+    border: none;
+}
+
+.input-container{
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: 10px; /* Ajusta la posición izquierda del icono */
+    top: 50%; /* Lo posiciona verticalmente en el medio */
+    transform: translateY(-50%);
+}
+
+.icon-center{
+    font-size: 30px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 6px;
+    &:hover{
+        background-color: #01EC94;
+        cursor: pointer;
+    }
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 60px;
+}
+
+.sub-container{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-right{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+$background-image-url: url("../images/school01.jpg");
+.container-left{
+    background-image: $background-image-url;
+    height: 519px;
+    width: 564px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
